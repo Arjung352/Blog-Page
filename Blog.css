@@ -1,0 +1,247 @@
+body {
+  margin: 0%;
+  background-color: rgb(209, 209, 209);
+}
+.head {
+  margin: 50px;
+  text-align: center;
+}
+.heading {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+.welcome {
+  font-family: "Courier New";
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: underline 3px rgb(0, 0, 0);
+}
+.blog {
+  margin: 50px 40px 50px 30px;
+  width: 60vw;
+}
+.blog1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 16px;
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+  margin-bottom: 40px;
+  background-color: white;
+}
+img {
+  border-radius: 16px;
+  padding: 8px;
+  width: auto;
+}
+.innerHead {
+  font-family: sans-serif;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.description {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding-left: 25px;
+}
+span {
+  color: rgba(0, 0, 0, 0.475);
+  font-weight: 300;
+  text-decoration: underline 2px black;
+}
+.innerContent {
+  font-size: 20px;
+  font-family: "Lucida Sans";
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+.readMore {
+  border: 1px black solid;
+  height: 40px;
+  width: 180px;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-left: 20px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease-in-out;
+}
+.readMore:hover {
+  background-color: rgb(86, 86, 86);
+  color: whitesmoke;
+}
+.footer {
+  height: 150px;
+  width: 98.9vw;
+  background-color: rgb(92, 92, 92);
+}
+.previous {
+  height: 40px;
+  width: 80px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.next {
+  height: 40px;
+  width: 70px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.madeBy {
+  color: white;
+  font-family: "Times New Roman";
+  font-weight: 100;
+  font-size: 19px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.previous:hover {
+  background-color: rgb(204, 204, 204);
+  color: rgb(92, 92, 92);
+}
+.next:hover {
+  background-color: rgb(204, 204, 204);
+  color: rgb(92, 92, 92);
+}
+.aside {
+  width: 33.33vw;
+}
+.body {
+  display: flex;
+}
+.myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 16px;
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+  margin-bottom: 40px;
+  margin-top: 50px;
+  background-color: white;
+}
+.myName {
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  text-decoration: underline 2px black;
+}
+.aboutMe {
+  font-size: 20px;
+  font-family: "Lucida Sans";
+  margin: 10px 10px 10px 20px;
+}
+.relatedTopics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 16px;
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+  margin-bottom: 40px;
+  margin-top: 50px;
+  background-color: white;
+}
+.Posts {
+  background-color: rgb(92, 92, 92);
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  padding-left: 15px;
+  color: white;
+  line-height: 60px;
+  font-size: 23px;
+  font-weight: 100;
+}
+.relatedPosts {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+ul {
+  list-style: none;
+}
+.sampleImg {
+  height: 100px;
+  width: 100px;
+}
+.relatedHeading {
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  bottom: 80px;
+  color: black;
+}
+.in {
+  border-bottom: 2px black solid;
+}
+.related1 {
+  display: inline-block;
+  position: relative;
+  right: 83px;
+  bottom: 15px;
+  height: 80px;
+  width: 300px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+.related2 {
+  position: relative;
+  display: inline-block;
+  bottom: 53px;
+  right: 60px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.related3 {
+  position: relative;
+  right: 43px;
+  bottom: 54px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.related4 {
+  position: relative;
+  right: 54px;
+  bottom: 54px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+li {
+  transition: all 0.3s ease-in-out;
+}
+li:hover {
+  color: white;
+  background-color: rgb(92, 92, 92);
+}
