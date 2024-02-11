@@ -205,6 +205,9 @@ ul {
   border-bottom: 2px black solid;
   position: relative;
 }
+.in:nth-child(4) {
+  border: none;
+}
 .related {
   position: absolute;
   top: 45px;
