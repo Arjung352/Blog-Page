@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   background-color: rgb(209, 209, 209);
+  overflow-x: hidden;
 }
 .head {
   margin: 50px;
